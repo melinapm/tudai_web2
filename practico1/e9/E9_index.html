@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title> Practico 1 - Ejercicio 3 </title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <form action="E9_formulario.php" method="POST">
+            <label> Nombre: </label>
+            <input type="text" id="nombre" name="nombre" value="Juan" required/>
+            <label> Apellido: </label>
+            <input type="text" id="apellido" name="apellido" value="Perez" required/>
+            <label> Edad: </label>
+            <input type="number" max="100" id="edad" name="edad" value="0" required/>
+            <br>
+            <br>
+            <label> Genero: </label>
+            <br>
+            <input type="radio" name="genero" value="masculino" required>
+            <label for="masculino"> Masculino </label><br>
+            <input type="radio" name="genero" value="femenino">
+            <label for="femenino"> Femenino </label><br>
+            <input type="radio" name="genero" value="otro">
+            <label for="otro"> Otro </label>
+            <br>
+            <br>
+            <label> Pais: </label>
+            <br>
+            <select name="pais">
+                <option value="argentina">Argentina</option>
+                <option value="brasi">Brasil</option>
+                <option value="uruguay">Uruguay</option>
+                <option value="bolivia">Bolivia</option>
+            </select>
+            <br>
+            <br>
+
+            <label> Intereses: </label>
+            <br>
+            <input type="checkbox" name="intereses[]" value="deportes">
+            <label for="deportes"> Deportes </label><br>
+            <input type="checkbox" name="intereses[]" value="libros">
+            <label for="libros"> Libros </label><br>
+            <input type="checkbox" name="intereses[]" value="arte">
+            <label for="arte"> Arte </label><br>
+            <input type="checkbox" name="intereses[]" value="viajes">
+            <label for="viajes"> Viajes </label><br>
+            <input type="checkbox" name="intereses[]" value="peliculas">
+            <label for="peliculas"> Peliculas </label>
+
+            <br>
+            <br>
+            <button type="submit"> Enviar </button>
+        </form>
+    </body>
+</html>
