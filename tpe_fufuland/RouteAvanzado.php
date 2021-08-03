@@ -9,6 +9,7 @@
     $r = new Router();
 
     // rutas
+    // Path - Metodo - Controller - Funcion
     $r->addRoute("home", "GET", "VeterinariosController", "GetVeterinarios");
 
     //Ruta por defecto.
