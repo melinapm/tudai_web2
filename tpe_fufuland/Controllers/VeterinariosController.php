@@ -13,6 +13,7 @@ Class VeterinariosController {
         $this->view = new VeterinariosView();
     }
 
+
     public function GetVeterinarios(){
         $veterinarios = $this->model->GetVeterinarios();
         $this->view->DisplayVeterinarios($veterinarios);

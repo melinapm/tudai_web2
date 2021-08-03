@@ -5,7 +5,7 @@ Class VeterinariosModel {
     private $db;
 
     function __construct(){
-        $this->db = new PDO('mysql:host=localhost;'.'dbname=fufuland;charset=utf8', 'root', 'root');
+        $this->db = new PDO('mysql:host=localhost;'.'dbname=fufuland;charset=utf8', 'root', '');
     }
 
 
