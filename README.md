@@ -1,5 +1,5 @@
 # WEB II TUDAI 2021
-Ejercicios de practica de Web II
+Ejercicios de practica y TPE de Web II
 
 ### Tecnologias 🛠️
 
